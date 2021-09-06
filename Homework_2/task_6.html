@@ -1,0 +1,40 @@
+<metacharset="UTF-8">
+<script>
+	function addition(a, b){
+		return alert("Сумма двух чисел: " + (a + b))
+	}
+
+	function substraction(a, b){
+		return alert("Разность двух чисел: " + (a - b))
+	}
+
+	function multiplication(a, b){
+		return alert("Произведение двух чисел: " + (a * b))
+	}
+
+	function division(a, b){
+		return alert("Частное двух чисел: " + (a / b))
+	}
+	function mathOperation(arg1, arg2, operation){
+		switch(operation){
+			case "+":
+				addition(arg1, arg2);
+				break;
+			case "-":
+				substraction(arg1, arg2);
+				break;
+			case "*":
+				multiplication(arg1, arg2);
+				break;
+			case "/":
+				division(arg1, arg2);
+				break;
+		}
+	}
+	
+arg1 = Number(prompt("Введите первое число: "))
+arg2 = Number(prompt("Введите второе число: "))
+operation = prompt("Введите знак операции (+, -, /, *): ")
+mathOperation(arg1, arg2, operation)
+
+</script>

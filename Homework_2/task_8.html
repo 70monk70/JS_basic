@@ -1,0 +1,13 @@
+<metacharset="UTF-8">
+<script>
+	function power(val, pow){
+		let result = val;
+		if(pow>1){
+			result *= power(val, pow-1);
+		}
+		return result
+	}
+val = prompt("Введите число, которое хотите возвести в степень: ");
+pow = prompt("Введите степень, в которую хотите возвести число: ");
+alert(power(val, pow))
+</script>
