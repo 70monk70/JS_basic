@@ -1,0 +1,38 @@
+.mainBlockTask1{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 50px auto;
+}
+
+.mainBlockTask3{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 50px auto;
+}
+
+.block{
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+.lettersAndNumbers{
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.figureBlack{
+    color: black;
+    text-align: center;
+}
+
+.white{
+    background-color: white;
+}
+
+.black{
+    background-color: black;
+}
